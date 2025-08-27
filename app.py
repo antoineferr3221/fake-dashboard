@@ -9,7 +9,7 @@ from datetime import datetime
 load_dotenv()
 
 SHOPIFY_ACCESS_TOKEN = os.getenv("SHOPIFY_ACCESS_TOKEN")
-SHOP_URL = os.getenv("SHOP_URL")
+SHOP_URL = os.getenv("SHOPIFY_DOMAIN")
 VARIANT_ID = os.getenv("VARIANT_ID")
 
 HEADERS = {
